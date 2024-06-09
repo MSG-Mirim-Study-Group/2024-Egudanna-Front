@@ -3,13 +3,18 @@ import { Provider } from "react-redux";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import RecordPage from "./pages/Record"; // RecordPage 컴포넌트 import
+import MainPage from "./pages/Main"
+import SortsPage from "./pages/Sorts"
+import ScreenPage from "./pages/ChallengeSelectionScreen"
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/record" element={<RecordPage />} />
-        {/* 다른 경로들에 대한 라우팅 설정 */}
+        <Route path="/main" element={<MainPage/>}/>
+        <Route path="/sorts" element={<SortsPage/>}/>
+        <Route path="/screen" element={<ScreenPage/>}/>
       </Routes>
     </Router>
   );
