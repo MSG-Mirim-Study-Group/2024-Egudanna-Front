@@ -11,7 +11,7 @@
 - language : Java
 - Framework : Spring Boot
 - Database : MariaDB, RDS
-- Server : Gmail SMTP, AWS
+- Server : Gmail SMTP, AWS, S3 bucket
 
 #### 팀원 별 업무
 - 임*현 : (Front)
